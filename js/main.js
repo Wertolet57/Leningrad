@@ -150,6 +150,20 @@ var $lateral_menu_trigger = $('#cd-menu-trigger'),
 		event.preventDefault();
 		$(this).toggleClass('submenu-open').next('.sub-menu').slideToggle(200).end().parent('.item-has-children').siblings('.item-has-children').children('a').removeClass('submenu-open').next('.sub-menu').slideUp(200);
 	});
+/*-----------------------------------------------------------------------------------*/
+/*    SCROLL
+/*-----------------------------------------------------------------------------------*/
+
+$('[href^="#"]').on('click', function(){
+	let href = $(this).attr('href'), elem = $(document).find(href);
+	if(elem.length > 0) {
+		let posY = elem.eq(0).offset().top;
+		$('html, body').animate({
+			scrollTop: posY - 100
+		}, 1000);
+	}
+	return false;
+});
 });
 /*-----------------------------------------------------------------------------------*/
 /*    CONTACT FORM
