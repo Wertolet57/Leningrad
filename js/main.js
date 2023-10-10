@@ -69,7 +69,8 @@ $('.single-slides').owlCarousel({
 /*-----------------------------------------------------------------------------------*/
 /*	CUBE PORTFOLIO
 /*-----------------------------------------------------------------------------------*/
-$('#js-grid-awesome-work').cubeportfolio({
+
+$('#js-grid-awesome-work, #js-grid-awesome-work2').cubeportfolio({
         filters: '#js-filters-awesome-work',
         loadMore: '#js-loadMore-awesome-work',
         loadMoreAction: 'click',

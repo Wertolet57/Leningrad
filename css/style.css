@@ -794,6 +794,9 @@ header nav .ownmenu ul.dropdown .indicator {
 ========================================================*/
 .portfolio {
 }
+.portfolio .my-team img{
+	border: 10px solid transparent;
+}
 .portfolio .hover-port {
 	border: 10px solid;
 	border-color: transparent;
