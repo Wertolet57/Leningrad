@@ -1458,16 +1458,8 @@ header.is-fixed {
  transform: translateY(-100vh);
 }
 }
-/*!
- * Cube Portfolio - Responsive jQuery Grid Plugin
- *
- * version: 3.1.1 (7 September, 2015)
- * require: jQuery v1.7+
- *
- * Copyright 2013-2015, Mihai Buricea (http://scriptpie.com/cubeportfolio/live-preview/)
- * Licensed under CodeCanyon License (http://codecanyon.net/licenses)
- *
- */.cbp, .cbp *, .cbp :after, .cbp :before, .cbp-l-filters-alignCenter, .cbp-l-filters-alignCenter *, .cbp-l-filters-alignLeft, .cbp-l-filters-alignLeft *, .cbp-l-filters-alignRight, .cbp-l-filters-alignRight *, .cbp-l-filters-button, .cbp-l-filters-button *, .cbp-l-filters-buttonCenter, .cbp-l-filters-buttonCenter *, .cbp-l-filters-dropdown, .cbp-l-filters-dropdown *, .cbp-l-filters-list, .cbp-l-filters-list *, .cbp-l-filters-work, .cbp-l-filters-work *, .cbp-l-filters-big, .cbp-l-filters-big *, .cbp-l-filters-text, .cbp-l-filters-text *, .cbp-l-filters-underline, .cbp-l-filters-underline *, .cbp-popup-wrap, .cbp-popup-wrap *, .cbp-popup-singlePage, .cbp-popup-singlePage *, .cbp-search, .cbp-search *, .cbp-search :after, .cbp-search :before {
+
+.cbp, .cbp *, .cbp :after, .cbp :before, .cbp-l-filters-alignCenter, .cbp-l-filters-alignCenter *, .cbp-l-filters-alignLeft, .cbp-l-filters-alignLeft *, .cbp-l-filters-alignRight, .cbp-l-filters-alignRight *, .cbp-l-filters-button, .cbp-l-filters-button *, .cbp-l-filters-buttonCenter, .cbp-l-filters-buttonCenter *, .cbp-l-filters-dropdown, .cbp-l-filters-dropdown *, .cbp-l-filters-list, .cbp-l-filters-list *, .cbp-l-filters-work, .cbp-l-filters-work *, .cbp-l-filters-big, .cbp-l-filters-big *, .cbp-l-filters-text, .cbp-l-filters-text *, .cbp-l-filters-underline, .cbp-l-filters-underline *, .cbp-popup-wrap, .cbp-popup-wrap *, .cbp-popup-singlePage, .cbp-popup-singlePage *, .cbp-search, .cbp-search *, .cbp-search :after, .cbp-search :before {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box
